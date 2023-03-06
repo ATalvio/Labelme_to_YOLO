@@ -10,6 +10,3 @@ OUTPUT_TXT_DIR = "examples_data/output_yolo/"  # Path to output txt dir
 ```
 
 Optionally fill ```python label_dict = {}``` to have desired label/number pairs. e.g. ```python label_dict = {'car': 0, 'person': 1,...}``` 
-
-NOTE!
-Saving image data to labelme annotation is not recommended as it often leads very large json file sizes which can be painful to process
